@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+
+    <title>ShortLink-encurtador de URL</title>
+</head>
+<body>
+    <header>
+        <P class="header_logo">link Short</P>
+        <a class="link_github" href="https://github.com/Gu-Parlandim" target="_back">
+            GitHub
+        </a>
+    </header>
+
+    <main>
+        <h1 class="title">link Short</h1>
+        <p class="text">
+            A maioria dos encurtadores de links faz muito. Este apenas torna seus links mais curtos.
+        </p>
+
+        <div class="form_container">
+            <input  class="url_input" type="url" name="" id="" placeholder="Copie seu link aqui">
+            <button class="button_submit" type="button">encurtar</button>
+
+            <P class="erro_message ">* Link invalido! insira um link válido.</P>
+        </div>
+        <div class="shortLink_container">
+            <input type="text" name="" id="shortURL" value=""  disabled>
+
+            <button type="button" class="button_copy">
+                <img src="assets/images/copy.svg"  alt="botão para copiar link encurtado">
+            </button>
+
+            <div class="copied_message">
+                <P>link copiado!</P>
+            </div>
+        </div>
+        
+    </main>
+
+    <script  src="assets/js/main.js"></script>
+</body>
+</html>
